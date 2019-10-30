@@ -46,3 +46,4 @@ captcha_box.send_keys(cp_txt)
 time.sleep(1)
 login = browser.find_element_by_id('btnSubmit')
 login.click()
+# erp logged in successfully
