@@ -14,6 +14,7 @@ import sys,time
 user = input('''Enter your Roll No in the format
 BE/10xxx/1x :
 ''')
+#valid user id
 passwd = getpass('Enter your password : ')
 browser = webdriver.Firefox()
 browser.get('http://erp.bitmesra.ac.in')
